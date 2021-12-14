@@ -1,0 +1,5 @@
+Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+2021/12/14 17:29:45 listening on ****
+2021/12/14 17:29:47 wrote 657 bytes for /
+2021/12/14 17:29:47 wrote 657 bytes for /favicon.ico
+2021/12/14 17:33:03 wrote 174 bytes for /raw
