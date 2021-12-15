@@ -6,3 +6,10 @@ services:
       - "9393:9300"
     volumes:
             - ../inputdata:/csvserver/inputdata:z
+
+  prom:
+   image: prom/prometheus:v2.22.0
+   ports:
+    - "9090:9090"
+   volumes:
+        - /home/harneet/infraclouds/csvserver/infracloudCsvserver/solution/prometheus.yml:/etc/prometheus/prometheus.yml:z
